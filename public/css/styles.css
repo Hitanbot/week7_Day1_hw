@@ -1,0 +1,28 @@
+li {
+  margin: 20px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+}
+
+li[data="low"] {
+    border: 3px solid green;
+}
+
+li[data="high"] {
+  border: 3px solid darkred;
+}
+
+li[data="medium"] {
+  border: 3px solid gold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li span {
+  padding: 8px;
+}
